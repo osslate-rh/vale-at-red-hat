@@ -23,7 +23,7 @@ content:
   sources:
     - url: ./
       branches:
-        - main
+        - guide-updates
       edit_url: "https://github.com/redhat-documentation/vale-at-red-hat/edit/{refname}/{path}"
 antora:
   extensions:

@@ -1,0 +1,268 @@
+:_module-type: REFERENCE
+[id="ssg_vale_error_reference"]
+= Vale error rule guidance
+
+The following table lists incorrect terminology and the approved usage as outlined in the Red Hat Supplementary Style Guide.
+
+.Supplementary Style Guide terminology guidance
+[options="header"]
+|====
+|Incorrect term|Correct term
+
+|oops|link:https://redhat-documentation.github.io/supplementary-style-guide/#kernel-oops[kernel oops]
+
+|firefox|link:https://redhat-documentation.github.io/supplementary-style-guide/#mozilla-firefox[Mozilla Firefox]
+
+|thunderbird|link:https://redhat-documentation.github.io/supplementary-style-guide/#mozilla-thunderbird[Mozilla Thunderbird]
+
+|bottle neck OR bottle-neck|link:https://redhat-documentation.github.io/supplementary-style-guide/#bottleneck[bottleneck]
+
+|broad cast OR broad-cast|link:https://redhat-documentation.github.io/supplementary-style-guide/#broadcast-n[broadcast]
+
+|broad cast OR broad-cast|link:https://redhat-documentation.github.io/supplementary-style-guide/#broadcast-v[broadcast]
+
+|air wall|link:https://redhat-documentation.github.io/supplementary-style-guide/#air-gap[air gap]
+
+|autodetect|link:https://redhat-documentation.github.io/supplementary-style-guide/#auto-detect[auto-detect]
+
+|bi-monthly|link:https://redhat-documentation.github.io/supplementary-style-guide/#bimonthly[bimonthly]
+
+|bi-weekly|link:https://redhat-documentation.github.io/supplementary-style-guide/#biweekly[biweekly]
+
+|boot diskette|link:https://redhat-documentation.github.io/supplementary-style-guide/#boot-disk[boot disk]
+
+|bootloader|link:https://redhat-documentation.github.io/supplementary-style-guide/#boot-loader[boot loader]
+
+|bugfix|link:https://redhat-documentation.github.io/supplementary-style-guide/#bug-fix[bug fix]
+
+|builtin OR built in|link:https://redhat-documentation.github.io/supplementary-style-guide/#built-in[built-in]
+
+|CD burner OR burner|link:https://redhat-documentation.github.io/supplementary-style-guide/#cd-writer[CD writer]
+
+|cipher text OR cyphertext OR cypher text OR cipher-text OR cypher-text|link:https://redhat-documentation.github.io/supplementary-style-guide/#ciphertext[ciphertext]
+
+|cloud-bursting|link:https://redhat-documentation.github.io/supplementary-style-guide/#cloudbursting[cloudbursting]
+
+|cloud-washing|link:https://redhat-documentation.github.io/supplementary-style-guide/#cloudwashing[cloudwashing]
+
+|co-locate OR collocate|link:https://redhat-documentation.github.io/supplementary-style-guide/#colocate[colocate]
+
+|cold backup|link:https://redhat-documentation.github.io/supplementary-style-guide/#offline-backup[offline backup]
+
+|comma delimited OR commadelimited|link:https://redhat-documentation.github.io/supplementary-style-guide/#comma-delimited[comma-delimited]
+
+|comma-delimited values OR comma delimited values OR comma separated values|link:https://redhat-documentation.github.io/supplementary-style-guide/#comma-separated-values[comma-separated values]
+
+|command driven OR commanddriven|link:https://redhat-documentation.github.io/supplementary-style-guide/#command-driven[command-driven]
+
+|command prompt OR terminal OR shell|link:https://redhat-documentation.github.io/supplementary-style-guide/#shell-prompt[shell prompt]
+
+|command-language|link:https://redhat-documentation.github.io/supplementary-style-guide/#command-language[command language]
+
+|computer farm OR computer ranch|link:https://redhat-documentation.github.io/supplementary-style-guide/#server-farm[server farm]
+
+|container based|link:https://redhat-documentation.github.io/supplementary-style-guide/#container-based[container-based]
+
+|containerised|link:https://redhat-documentation.github.io/supplementary-style-guide/#containerized[containerized]
+
+|cross site scripting|link:https://redhat-documentation.github.io/supplementary-style-guide/#cross-site-scripting[cross-site scripting]
+
+|crossplatform OR cross platform|link:https://redhat-documentation.github.io/supplementary-style-guide/#cross-platform[cross-platform]
+
+|daisy-chain OR daisychain|link:https://redhat-documentation.github.io/supplementary-style-guide/#daisy-chain-n[daisy chain]
+
+|daisy-chain OR daisychain|link:https://redhat-documentation.github.io/supplementary-style-guide/#daisy-chain-v[daisy chain]
+
+|datacenter OR data-center OR data centre OR datacentre|link:https://redhat-documentation.github.io/supplementary-style-guide/#data-center[data center]
+
+|datamirroring OR data-mirroring|link:https://redhat-documentation.github.io/supplementary-style-guide/#data-mirroring[data mirroring]
+
+|datapath|link:https://redhat-documentation.github.io/supplementary-style-guide/#data-path-n[data path]
+
+|de-bug|link:https://redhat-documentation.github.io/supplementary-style-guide/#debug-adj[debug]
+
+|de-bug|link:https://redhat-documentation.github.io/supplementary-style-guide/#debug-v[debug]
+
+|de-bug|link:https://redhat-documentation.github.io/supplementary-style-guide/#debug-adj[debug]
+
+|de-bug|link:https://redhat-documentation.github.io/supplementary-style-guide/#debug-v[debug]
+
+|desire OR wish|link:https://redhat-documentation.github.io/supplementary-style-guide/#need[need]
+
+|desk top OR desk-top|link:https://redhat-documentation.github.io/supplementary-style-guide/#desktop-adj[desktop]
+
+|desk top OR desk-top|link:https://redhat-documentation.github.io/supplementary-style-guide/#desktop-n[desktop]
+
+|different than OR different to|link:https://redhat-documentation.github.io/supplementary-style-guide/#different[different from]
+
+|disklabel OR disk-label|link:https://redhat-documentation.github.io/supplementary-style-guide/#disk-label[disk label]
+
+|domainname OR domain-name|link:https://redhat-documentation.github.io/supplementary-style-guide/#domain-name[domain name]
+
+|down-load OR down load|link:https://redhat-documentation.github.io/supplementary-style-guide/#download-n[download]
+
+|down-load OR down load|link:https://redhat-documentation.github.io/supplementary-style-guide/#download-v[download]
+
+|down-stream OR down stream|link:https://redhat-documentation.github.io/supplementary-style-guide/#downstream-adj[downstream]
+
+|down-stream OR down stream|link:https://redhat-documentation.github.io/supplementary-style-guide/#downstream-n[downstream]
+
+|dualboot OR dual boot|link:https://redhat-documentation.github.io/supplementary-style-guide/#dual-boot[dual-boot]
+
+|entitlement|link:https://redhat-documentation.github.io/supplementary-style-guide/#subscription[subscription]
+
+||link:https://redhat-documentation.github.io/supplementary-style-guide/#environment[environment]
+
+|firm ware OR firm-ware|link:https://redhat-documentation.github.io/supplementary-style-guide/#firmware[firmware]
+
+|floating-point|link:https://redhat-documentation.github.io/supplementary-style-guide/#floating-point[floating point]
+
+|fore-ground OR forground|link:https://redhat-documentation.github.io/supplementary-style-guide/#foreground[foreground]
+
+|gray-scale OR gray scale|link:https://redhat-documentation.github.io/supplementary-style-guide/#grayscale[grayscale]
+
+|Hammer OR x86_64 OR x86-64 OR x64 OR 64-bit x86|link:https://redhat-documentation.github.io/supplementary-style-guide/#AMD64[AMD64]
+
+|hardcode|link:https://redhat-documentation.github.io/supplementary-style-guide/#hard-code[hard code]
+
+|hardcoded|link:https://redhat-documentation.github.io/supplementary-style-guide/#hard-coded[hard-coded]
+
+|healthcheck OR health-check|link:https://redhat-documentation.github.io/supplementary-style-guide/#health-check[health check]
+
+|helpdesk OR help-desk|link:https://redhat-documentation.github.io/supplementary-style-guide/#help-desk[help desk]
+
+|hostgroup|link:https://redhat-documentation.github.io/supplementary-style-guide/#host-group[host group]
+
+|hot-line|link:https://redhat-documentation.github.io/supplementary-style-guide/#hotline[hotline]
+
+|hotadd OR hot-add|link:https://redhat-documentation.github.io/supplementary-style-guide/#hot-add[hot add]
+
+|hotplug OR hot-plug|link:https://redhat-documentation.github.io/supplementary-style-guide/#hot-plug[hot plug]
+
+|hotswap OR hot-swap|link:https://redhat-documentation.github.io/supplementary-style-guide/#hot-swap[hot swap]
+
+|hyper-converged|link:https://redhat-documentation.github.io/supplementary-style-guide/#hyperconverged[hyperconverged]
+
+|kernelspace|link:https://redhat-documentation.github.io/supplementary-style-guide/#kernel-space-ad[kernel-space]
+
+|knowledgebase|link:https://redhat-documentation.github.io/supplementary-style-guide/#knowledge-base[knowledge base]
+
+|large page OR super page|link:https://redhat-documentation.github.io/supplementary-style-guide/#huge-page-noun[huge page]
+
+|leave out|link:https://redhat-documentation.github.io/supplementary-style-guide/#omit[omit]
+
+|Linux specific OR chip specific OR and so on|link:https://redhat-documentation.github.io/supplementary-style-guide/#specific[specific]
+
+|look at|link:https://redhat-documentation.github.io/supplementary-style-guide/#examine[examine]
+
+|lots of OR bunches of|link:https://redhat-documentation.github.io/supplementary-style-guide/#many[many]
+
+|make sure|link:https://redhat-documentation.github.io/supplementary-style-guide/#verify[verify]
+
+|manpage|link:https://redhat-documentation.github.io/supplementary-style-guide/#man-page[man page]
+
+|matrices|link:https://redhat-documentation.github.io/supplementary-style-guide/#matrixes[matrixes]
+
+|menu driven OR menudriven|link:https://redhat-documentation.github.io/supplementary-style-guide/#menu-driven[menu-driven]
+
+|mouse-button OR mousebutton|link:https://redhat-documentation.github.io/supplementary-style-guide/#mouse-button[mouse button]
+
+|multi-processing|link:https://redhat-documentation.github.io/supplementary-style-guide/#multiprocessing[multiprocessing]
+
+|multi-tenant|link:https://redhat-documentation.github.io/supplementary-style-guide/#multitenant[multitenant]
+
+|nonsecure OR non-secure|link:https://redhat-documentation.github.io/supplementary-style-guide/#insecure[insecure]
+
+|OK button|link:https://redhat-documentation.github.io/supplementary-style-guide/#ok[OK]
+
+|OK button|link:https://redhat-documentation.github.io/supplementary-style-guide/#ok[OK]
+
+|op-code|link:https://redhat-documentation.github.io/supplementary-style-guide/#opcodes[opcode]
+
+|open-source OR OpenSource OR opensource|link:https://redhat-documentation.github.io/supplementary-style-guide/#open-source[open source]
+
+|over-ride OR over ride|link:https://redhat-documentation.github.io/supplementary-style-guide/#override[override]
+
+|perfcounter|link:https://redhat-documentation.github.io/supplementary-style-guide/#performance-counter[performance counter]
+
+|plaintext OR plain-text OR cleartext OR clear text|link:https://redhat-documentation.github.io/supplementary-style-guide/#plain-text[plain text]
+
+|pseudo ops OR pseudoops|link:https://redhat-documentation.github.io/supplementary-style-guide/#pseudoops[pseudo-ops]
+
+|pull-down|link:https://redhat-documentation.github.io/supplementary-style-guide/#pulldown[pulldown]
+
+|remote-access server|link:https://redhat-documentation.github.io/supplementary-style-guide/#remote-access-server[remote access server]
+
+|remote-access|link:https://redhat-documentation.github.io/supplementary-style-guide/#remote-access[remote access]
+
+|right now|link:https://redhat-documentation.github.io/supplementary-style-guide/#now[now]
+
+|round table|link:https://redhat-documentation.github.io/supplementary-style-guide/#roundtable[roundtable]
+
+|technical rule|link:https://redhat-documentation.github.io/supplementary-style-guide/#rule[rule]
+
+|run level OR run-level|link:https://redhat-documentation.github.io/supplementary-style-guide/#runlevel[runlevel]
+
+|screensaver|link:https://redhat-documentation.github.io/supplementary-style-guide/#screen-saver[screen saver]
+
+|scroll bar OR scroll-bar|link:https://redhat-documentation.github.io/supplementary-style-guide/#scrollbar[scrollbar]
+
+|send out|link:https://redhat-documentation.github.io/supplementary-style-guide/#emit[emit]
+
+|sharename OR Sharename|link:https://redhat-documentation.github.io/supplementary-style-guide/#share-name[share name]
+
+|soundcard OR sound-card|link:https://redhat-documentation.github.io/supplementary-style-guide/#sound-card[sound card]
+
+|specfile|link:https://redhat-documentation.github.io/supplementary-style-guide/#spec-file[spec file]
+
+|spelt|link:https://redhat-documentation.github.io/supplementary-style-guide/#spelled[spelled]
+
+|stand-alone|link:https://redhat-documentation.github.io/supplementary-style-guide/#standalone[standalone]
+
+|straight forward OR straight-forward|link:https://redhat-documentation.github.io/supplementary-style-guide/#straightforward[straightforward]
+
+|sub-command|link:https://redhat-documentation.github.io/supplementary-style-guide/#subcommand[subcommand]
+
+|sub-directory|link:https://redhat-documentation.github.io/supplementary-style-guide/#subdirectory[subdirectory]
+
+|sub-menu|link:https://redhat-documentation.github.io/supplementary-style-guide/#submenu[submenu]
+
+|sub-package|link:https://redhat-documentation.github.io/supplementary-style-guide/#subpackage[subpackage]
+
+|super-user OR super user|link:https://redhat-documentation.github.io/supplementary-style-guide/#superuser[superuser]
+
+|swapspace|link:https://redhat-documentation.github.io/supplementary-style-guide/#swap-space[swap space]
+
+|text based|link:https://redhat-documentation.github.io/supplementary-style-guide/#text-based[text-based]
+
+|textmode OR text-mode|link:https://redhat-documentation.github.io/supplementary-style-guide/#text-mode[text mode]
+
+|the installer|link:https://redhat-documentation.github.io/supplementary-style-guide/#installation-program[installation program]
+
+|thin-provisioned OR thinly provisioned OR thinly-provisioned|link:https://redhat-documentation.github.io/supplementary-style-guide/#thin-provisioned[thin-provisioned]
+
+|tier-one OR tier 1|link:https://redhat-documentation.github.io/supplementary-style-guide/#tier-1[tier-1]
+
+|timeframe OR time-frame|link:https://redhat-documentation.github.io/supplementary-style-guide/#time-frame[time frame]
+
+|up-grade OR up grade|link:https://redhat-documentation.github.io/supplementary-style-guide/#upgrade[upgrade]
+
+|up-sell|link:https://redhat-documentation.github.io/supplementary-style-guide/#upsell[upsell]
+
+|up-selling OR up selling|link:https://redhat-documentation.github.io/supplementary-style-guide/#upselling[upselling]
+
+|up-stream OR up stream|link:https://redhat-documentation.github.io/supplementary-style-guide/#upstream-n[upstream]
+
+|up-stream OR up stream|link:https://redhat-documentation.github.io/supplementary-style-guide/#upstream-adj[upstream]
+
+|up-time OR up time|link:https://redhat-documentation.github.io/supplementary-style-guide/#uptime[uptime]
+
+|thru|link:https://redhat-documentation.github.io/supplementary-style-guide/#through[through]
+
+|video-mode OR videomode|link:https://redhat-documentation.github.io/supplementary-style-guide/#video-mode[video mode]
+
+|wish OR would like|link:https://redhat-documentation.github.io/supplementary-style-guide/#want[want]
+
+|wish OR would like|link:https://redhat-documentation.github.io/supplementary-style-guide/#want[want]
+|====
+
